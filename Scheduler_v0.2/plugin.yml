@@ -1,0 +1,6 @@
+name: Scheduler_2
+main: Scheduler_2\Main
+version: 0.1
+api: [1.10.0]
+load: POSTWORLD
+author: mike7140
