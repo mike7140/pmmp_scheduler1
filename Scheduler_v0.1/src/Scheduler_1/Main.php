@@ -6,6 +6,7 @@ use pocketmine\Player;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\scheduler\PluginTask;//これを追加します
+//scheduler_1では、プレイヤーを参加した10秒後にkickするという(サンプル感が半端ない)プラグインを説明します
 class Main extends PluginBase implements Listener{
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this,$this);
